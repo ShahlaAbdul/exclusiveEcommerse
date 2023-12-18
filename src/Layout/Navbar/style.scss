@@ -1,0 +1,111 @@
+.header {
+  background-color: #000;
+  color: white;
+  .headerContect {
+    width: 60%;
+    margin: 0px auto;
+    margin-right: 10%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    .headerContectleft {
+      display: flex;
+      justify-content: flex-end;
+      span {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+    .headerContectRight {
+      select {
+        border: none;
+        background-color: transparent;
+        color: #fff;
+        cursor: pointer;
+        option {
+          background-color: #000;
+        }
+      }
+    }
+  }
+}
+nav{
+    padding: 20px 0px 10px 0px       ;
+    border-bottom: 1px solid rgb(202, 192, 192);
+    .navbarContent {
+
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  .navbarLogo {
+    display: flex;
+    justify-content: center;
+  
+    max-width: 20%;
+        align-items: center;
+    h2 {
+     width: 100%;
+      color: var(--Text2, #000);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 100% */
+      letter-spacing: 0.72px;
+    }
+  }
+  .navbarPages {
+    display: flex;
+    justify-content: center;
+   
+      align-items: center;
+    .pagesElement {
+      display: flex;
+      align-items: flex-start;
+      gap: 48px;
+      li:hover{
+        color: rgb(210, 199, 199);
+        cursor: pointer;
+        text-decoration:  underline;
+        transition: all 800ms ease;
+      }
+    }
+  }
+  .navbarSearch {
+    display: flex;
+    justify-content: space-between;
+
+    .searchInp {
+      border-radius: 5px;
+      display: flex;
+      padding: 7px 12px 7px 20px;
+     background-color: rgba(209, 197, 197, 0.555);
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      input {
+        width: 80%;
+        height: 100%;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+      }
+    }
+    .searchIcons {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 20px;
+        i:hover{
+          color: rgb(78, 72, 72);
+        }
+     
+    }
+  }
+}
+
+}
