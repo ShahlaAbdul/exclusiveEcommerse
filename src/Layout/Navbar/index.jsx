@@ -42,8 +42,8 @@ function Navbar() {
               </span>
             </div>
             <div className="searchIcons">
-              <i class="fa-solid fa-heart"></i>
-              <i class="fa-solid fa-cart-shopping"></i>
+              <i className="fa-solid fa-heart"></i>
+              <i className="fa-solid fa-cart-shopping"></i>
             </div>
           </div>
         </div>

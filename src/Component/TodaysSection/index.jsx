@@ -1,4 +1,6 @@
 import React,{ useRef, useState,useEffect } from 'react';
+import FlashSaleCard from '../FlashSaleCard';
+import './style.scss'
 
 
 
@@ -74,6 +76,10 @@ function TodaySection() {
                 <p style={{fontSize:'14px'}}> hours minutes second</p>
                 <h2>{timer}</h2>
                 <button onClick={onClickReset}>Reset</button>
+            </div>
+            <div className="FlashsaleCards">
+                <FlashSaleCard/>
+              
             </div>
         </div>
     );
