@@ -1,0 +1,18 @@
+.flashSaleButton{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    &:hover{
+        cursor: pointer;
+    }
+    p{
+        width: 200px;
+        padding: 15px;
+        background-color: #DB4444;
+        border-radius: 4px;
+        text-align: center;
+        color: #fff;
+    }
+}

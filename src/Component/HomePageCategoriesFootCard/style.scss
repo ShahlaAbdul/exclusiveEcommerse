@@ -1,0 +1,19 @@
+
+.CategoryCard{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #0000004d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+
+    .CategoryCardImg{
+        font-size: 50px;
+        color: rgb(56, 52, 52);
+    }
+    .CategoryCardText{
+
+    }
+}

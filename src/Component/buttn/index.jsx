@@ -1,10 +1,10 @@
 import React from 'react';
+import './style.scss'
 
-function Button1() {
+function Button1({text}) {
   return (
-    <div>
-
-      
+    <div className='flashSaleButton'>
+      <p>{text}</p>
     </div>
   );
 }
